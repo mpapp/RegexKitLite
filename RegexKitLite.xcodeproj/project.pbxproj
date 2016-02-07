@@ -11,8 +11,8 @@
 		5F292BBB1B92387100317449 /* RegexKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F292BAF1B92387100317449 /* RegexKitLite.framework */; };
 		5F292BC21B92387100317449 /* RegexKitLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F292BC11B92387100317449 /* RegexKitLiteTests.m */; };
 		5F292BCC1B9238F200317449 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F292BCB1B9238F200317449 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5F292BCE1B92390B00317449 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F292BCD1B92390B00317449 /* libicucore.dylib */; };
 		5F75748A1B9264B900BD4BC6 /* RegexKitLiteFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7574891B9264B900BD4BC6 /* RegexKitLiteFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDED07C1C67A01C00769001 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDED07B1C67A01C00769001 /* libicucore.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,8 @@
 		5F292BC01B92387100317449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F292BC11B92387100317449 /* RegexKitLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegexKitLiteTests.m; sourceTree = "<group>"; };
 		5F292BCB1B9238F200317449 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = SOURCE_ROOT; };
-		5F292BCD1B92390B00317449 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		5F7574891B9264B900BD4BC6 /* RegexKitLiteFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLiteFramework.h; sourceTree = SOURCE_ROOT; };
+		5FDED07B1C67A01C00769001 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F292BCE1B92390B00317449 /* libicucore.dylib in Frameworks */,
+				5FDED07C1C67A01C00769001 /* libicucore.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		5F292BA51B92387100317449 = {
 			isa = PBXGroup;
 			children = (
-				5F292BCD1B92390B00317449 /* libicucore.dylib */,
+				5FDED07B1C67A01C00769001 /* libicucore.tbd */,
 				5F292BB11B92387100317449 /* RegexKitLite */,
 				5F292BBE1B92387100317449 /* RegexKitLiteTests */,
 				5F292BB01B92387100317449 /* Products */,
