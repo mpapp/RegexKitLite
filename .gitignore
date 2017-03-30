@@ -1,2 +1,4 @@
 *.xcuserdatad
+*.xcscmblueprint
 Carthage/Build
+.DS_Store
